@@ -14,7 +14,7 @@ elif search == "in the bathroom":
     bathroom = input()
     if bathroom == "in the bathtub?":
         print("Found a rubber duck but no battery")
-    elif bathroom == "under the wash bowl":
+    elif bathroom == "under the washbowl":
         print("Found a wet surface but no battery")
     else:
         print("Found nothing")
