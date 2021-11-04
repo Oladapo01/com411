@@ -1,14 +1,10 @@
-# Declare a variable to count the current number of iterations
-iterations = 0
+print("How many cables should I remove?")
+cables = int(input())
 
-# Display ready message
-print("Starting iterations...")
+removed_cables = 0
+print("\n")
 
-# Display the current count
-while iterations < 10:
-    # Update the current iteration count
-    iterations = iterations + 1
-
-# Display completion message
-print(f"Completed {iterations}!")
+while cables > removed_cables:
+    removed_cables = removed_cables + 1
+    print(f"Removed cables ")
 
